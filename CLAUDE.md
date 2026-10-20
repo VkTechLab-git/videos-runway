@@ -66,3 +66,10 @@ primeira pessoa; descrever o que deve aparecer em vez de negativas; "mouth movem
 - Mesmo seed (4242): o vídeo completo mantém o estilo do teste, mas o layout do cenário pode mudar.
 - Resultado final aprovado: 2 passes (cenário + roupa, depois reiluminação). O objetivo é conseguir em
   1 passe juntando as instruções de luz no prompt (modelo acima). Prompts usados: `prompts/projeto1-*.txt`.
+
+### Projeto 2: consultório da Mayo Clinic em 1940 (outubro de 2026, vídeo de 26,4 s, vertical, selfie com câmera na mão) — em andamento
+- Câmera na mão: trocar "Static camera" por "Keep the original handheld camera movement". O cenário acompanhou o movimento.
+- Teste 1 (7,5–12,5 s, seed 4242, 140 créditos): rosto, boca e luz do rosto preservados; o jaleco e o P&B sépia
+  ficaram bons. Problemas: o comedouro do pet no chão continuou na cena; só 1 médico apareceu, cortado na borda
+  direita, a mulher não apareceu e a sala pareceu pequena. Objetos marcantes do original no chão precisam ser
+  substituídos explicitamente no prompt.
