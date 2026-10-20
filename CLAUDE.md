@@ -73,3 +73,8 @@ primeira pessoa; descrever o que deve aparecer em vez de negativas; "mouth movem
   ficaram bons. Problemas: o comedouro do pet no chão continuou na cena; só 1 médico apareceu, cortado na borda
   direita, a mulher não apareceu e a sala pareceu pequena. Objetos marcantes do original no chão precisam ser
   substituídos explicitamente no prompt.
+- Limite da API: `promptText` aceita no máximo 1000 caracteres (o teste 2 foi recusado com 1010).
+- Teste 2 (mesmo trecho e seed, 140 créditos): "a small rug where the round object on the floor was" eliminou o
+  comedouro. "Behind his right shoulder and fully inside the frame" trouxe o biombo, a mulher e 1 médico
+  nítidos, mas ainda saiu só 1 dos 2 médicos, e a mulher ficou ao lado do biombo, não atrás. O Aleph pôs
+  sozinho um estetoscópio e um bordado no jaleco. O rosto e a boca continuaram perfeitos.
